@@ -20,7 +20,7 @@ steps:
        name: packed-solution
     - uses: microsoft/powerplatform-actions/import-solution@v0
       with:
-       environment-url: https://orga5f6e0ea.crm.dynamics.com/main.aspx?appid=13b03e5d-bbbe-ec11-983f-00224808c6cc&pagetype=dashboard&id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&type=system&_canOverride=true
+       environment-url: https://org0f39c1e2.crm.dynamics.com/main.aspx?appid=13b03e5d-bbbe-ec11-983f-00224808c6cc&pagetype=dashboard&id=eaa6e6bb-4712-ec11-b6e7-00224820f09b&type=system&_canOverride=true
        user-name: ${{ secrets.USERNAME }}
        password-secret: ${{ secrets.PASSWORD }}
        solution-file: contoso_university_core_managed.zip
