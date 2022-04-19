@@ -12,8 +12,7 @@ jobs:
  deploy:
   runs-on: windows-latest
   environment: production
-
-steps:
+  steps:
     - uses: dawidd6/action-download-artifact@v2
       with:
        workflow: pack-solution.yml
